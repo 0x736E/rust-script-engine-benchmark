@@ -1,7 +1,7 @@
 # Introduction
 
-This project contains minimal implementations of various JavaScript engines in Rust (V8, JSC, Spidermonkey) for the 
-purpose of benchmarking.
+This project contains minimal implementations of various scripting engines in Rust (V8, JSC, Spidermonkey, Python etc.) 
+for the purpose of benchmarking.
 
 # Benchmark
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
