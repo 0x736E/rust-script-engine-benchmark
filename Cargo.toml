@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "engines/javascript/*",
+    "engines/python/*",
+    "engines/lua/*",
+]

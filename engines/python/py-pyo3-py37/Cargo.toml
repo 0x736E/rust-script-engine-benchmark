@@ -1,0 +1,13 @@
+[package]
+name = "py-pyo3-py37"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pyo3 = { version = "0.20.0", features = ["auto-initialize"] }
+
+[build-dependencies]
+pyo3-build-config = { git = "https://github.com/pyo3/pyo3", features = ["resolve-config"] }
+
